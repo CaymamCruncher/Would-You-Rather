@@ -1,0 +1,124 @@
+/* general styles for page */
+
+body {
+  vertical-align: middle
+}
+
+.app {
+  text-align: center;
+  margin-top: 0%;
+}
+
+hr {
+  color: rgb(119, 218, 154);
+}
+
+.none {
+  display: none;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+/* styles for navbar */
+
+.navbar {
+  width: 100%;
+  padding: 1%;
+  background-color: rgb(213, 210, 210);
+}
+
+.nav-link {
+  margin: 0% 1%;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background-color: rgb(119, 218, 154);
+  color: rgb(213, 210, 210);
+  padding: .5%;
+  border-radius: 10%;
+}
+
+.nav-span {
+  margin: 0% 1%;
+}
+
+.logout-button:hover {
+  background-color: rgb(119, 218, 154);
+  padding: .5%;
+  border-radius: 10%;
+}
+
+/* styles for login page */
+
+.login {
+  text-align: center;
+
+}
+
+/* styles for list items and questions */
+
+.hide-button {
+  display: inline-block;
+  border: solid black 1px;
+  margin: 0 1%;
+  padding: 1%;
+}
+
+.hide-button:hover {
+  cursor: pointer;
+  color: rgb(119, 218, 154);
+}
+
+.list {
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  width: 40%;
+  list-style-type: none;
+  margin: 1% auto;
+  padding: 1% 0%;
+  border: solid black 2px;
+}
+
+.list-button {
+  width: 45%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.list-link {
+  text-decoration: none;
+  color: rgb(119, 218, 154);
+}
+
+.selected-option {
+  color: rgb(119, 218, 154);
+}
+
+/* styles for NewQuestion */
+
+.option-input {
+  margin: 1% auto;
+  width: 15%;
+  display: block;
+}
+
+/* styles for Leaderboard */
+
+.leaderboard-li {
+  width: 25%;
+  list-style-type: none;
+  margin: 1% auto;
+  padding: 1%;
+  border: solid black 2px;
+}
